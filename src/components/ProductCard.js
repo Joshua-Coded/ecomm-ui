@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-// import CartClient from "../api/CartClient";
-// import { updateCart, useCartContext } from "../hooks/CartContext";
+import CartClient from "../api/CartClient";
+import { updateCart, useCartContext } from "../hooks/CartContext";
 
 const ProductCard = ({ auth, product }) => {
     const navigate = new useNavigate();

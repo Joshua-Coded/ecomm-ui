@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-// import CartClient from "../api/CartClient";
-// import ProductClient from "../api/ProductClient";
+import CartClient from "../api/CartClient";
+import ProductClient from "../api/ProductClient";
 import { updateCart, useCartContext } from "../hooks/CartContext";
 import Products from "./Products";
 

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
-// import ProductClient from "../api/ProductClient";
-// import CartClient from "../api/CartClient";
-// import { updateCart, useCartContext } from "../hooks/CartContext";
+import ProductClient from "../api/ProductClient";
+import CartClient from "../api/CartClient";
+import { updateCart, useCartContext } from "../hooks/CartContext";
 
 const ProductDetail = ({ auth }) => {
     const { id } = useParams();
